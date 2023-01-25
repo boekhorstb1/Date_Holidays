@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Date": "./"
+            "Date": "Date/"
         }
     },
     "description": "More info available on: http://pear.php.net/package/Date_Holidays",
@@ -34,7 +34,8 @@
     "type": "library",
     "require": {
         "pear/pear_exception": "*",
-        "pear/pear": "*"
+        "pear/pear": "*",
+        "jeremib/pear_date": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
